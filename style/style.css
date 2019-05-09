@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+div.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+div.countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+div.countries div {
+  width: calc(100% / 4 - 20px);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+div.countries div img {
+  width: 100%;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
+
+input, textarea {
+ width: 50%;
+ margin: 20px 0;
+}
